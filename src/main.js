@@ -3,7 +3,7 @@ const menuShow = document.getElementById('id-menuShow');
 const mainBtn = document.getElementById('id-mainButton');
 const championsBtn = document.getElementById('id-championsButton');
 const filterBtn = document.getElementById('id-championsFilter');
-const inceptionBtn = document.getElementById('id-btnWelcome');
+const welcomeBtn = document.getElementById('id-welcomeButton');
 
 // Cargar menú desplegable
 const loadMenu = () => {
@@ -21,11 +21,11 @@ const loadMain = () => {
     document.getElementById('id-mainFilter').style.display = 'none';
 };
 mainBtn.addEventListener('click', loadMain);
-const loadWelcome = () => {
-    document.getElementById('id-imgWelcome2').style.display = 'block';
-};
-inceptionBtn.addEventListener('click', loadWelcome);
+//  Cargar Top de campeones
+const loadTopChampions = () => {
 
+};
+welcomeBtn.addEventListener('click', loadTopChampions);
 // Cargar campeones
 const loadChampions = () => {
     document.getElementById('id-imgWelcome2').style.display = 'none';
@@ -97,10 +97,17 @@ const filterOfRole = () => {
         let listChampions = '';
         data.forEach((newArrayOfRole) => {
             const cardChampions = `
-                <li class="list-champions">
+                <a class="list-champions" href="#${ newArrayOfRole.key}">
                     <div class="champion-name">${ newArrayOfRole.name}</div>
                     <div class="champion-img"><img class= "post-image" src="${ newArrayOfRole.img}"/></div>
-                </li>
+                </a>
+                <div id="${ newArrayOfRole.key}" class="modal-champions">
+                    <div class="modal-filter">
+                        <a href="#container-champions" class="btn-close">Close</a>
+                        <div class="img-modalChampions" ><img class="img-modal" src="${ newArrayOfRole.splash}"/></div>
+                        <div class="container-canvas"><canvas id="id-chartChampions" class="chart-champions"></canvas></div>
+                    </div>
+                </div>
           `;
             listChampions += cardChampions;
         });
