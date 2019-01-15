@@ -46,9 +46,9 @@ Después de conocer a los principales usuarios y entender sus necesidades, se ll
 2) Sketch de la solución (prototipo de baja fidelidad).
 <img src= "img/prototipado.jpg" alt="Imagen del prototipado" style="max-width:80%">
 3) Resultados del primer Sprint
--Barra de Menú integrada.
--Fondo de pantalla (video interactivo).
--Manejo pequeño de Responsive.
+- Barra de Menú integrada.
+- Fondo de pantalla (video interactivo).
+- Manejo pequeño de Responsive.
 <img src= "img/Semana1.png" alt="Imagen del resultado 1semana" style="max-width:80%">
 #### Testeos de usabilidad
 - Al usuario le gusto mucho el fondo en movimiento, pero le gustaria que los campeones se muestren mas ordenados.
@@ -68,8 +68,8 @@ Trabajamos la segunda historia de Usuario: Yo como usuario quiero poder filtrar 
 Se trabajó en una estadística de ataque según el grupo de campeones por Rol. (promedios).
 1) Sketch del tercer sprint (prototipo de alta fidelidad).
 Luego de los testeos de usabilidad, decidimos tratar de implementar algunas de las recoemndaciones y realizar un nuevo prototipado usando el figma - [INGRESA AQUI](https://www.figma.com/proto/H0kSz5zHLpT4zNCKe78ca18g/LOL?node-id=16%3A498&viewport=-356%2C1026%2C0.44939&scaling=min-zoom).
-Implementamos el Zeplin - [INGRESA AQUÍ](https://app.zeplin.io/project/5c33eafa7fe57c0c905da306)
-2)Resultado del tercer sprint
+Implementamos el Zeplin - [INGRESA AQUÍ](https://app.zeplin.io/project/5c33eafa7fe57c0c905da306).
+2)Resultado del tercer sprint:
 <img src= "img/Semana3.png" alt="Imágen del resultado final" style="max-width:80%">
 INCORPORAMOS UN MODAL POR CADA CAMPEON CON UNA BREVE DESCRIPCIÓN.
 <img src= "img/ultimoSprint.png" alt="Imaáen del modal" style="max-width:80%">
